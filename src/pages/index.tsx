@@ -15,9 +15,9 @@ export default () => (
         width="250"
         alt="ZEIT + Notion"
       />
-      <h1>My Notion Blog</h1>
+      <h1>This is Veronica</h1>
       <h2>
-        Blazing Fast Notion Blog with Next.js'{' '}
+        I just created this personal blog using Next.js + Notion'{' '}
         <ExtLink
           href="https://github.com/zeit/next.js/issues/9524"
           className="dotted"
