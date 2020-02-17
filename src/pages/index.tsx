@@ -17,7 +17,7 @@ export default () => (
       />
       <h1>This is Veronica</h1>
       <h2>
-        I just built this personal blog with Next.js + Notion'{' '}
+        I just created this personal blog using Next.js + Notion'{' '}
         <ExtLink
           href="https://github.com/zeit/next.js/issues/9524"
           className="dotted"
