@@ -306,7 +306,7 @@ h2 {
   outline: none;
 }
 
-p {
+p, li {
   font-weight: 400;
   font-size: 0.94rem;
   line-height: 1.7;
