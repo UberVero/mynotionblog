@@ -241,6 +241,20 @@ const RenderPost = ({ post, redirect }) => {
                 )
               }
               break
+          }
+          case 'callout': {
+              toRender.push(
+                <div className="callout" key={id}>
+                  {value.format?.page_icon && (
+                    <div>{value.format?.page_icon}</div>
+                  )}
+                  <div className="text">
+                    {textBlock(properties.title, true, id)}
+                  </div>
+                </div>
+              )
+              break
+            }
             default:
               if (
                 process.env.NODE_ENV !== 'production' &&
