@@ -241,7 +241,6 @@ const RenderPost = ({ post, redirect }) => {
                 )
               }
               break
-          }
           case 'callout': {
               toRender.push(
                 <div className="callout" key={id}>
