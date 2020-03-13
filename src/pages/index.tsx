@@ -4,7 +4,13 @@ import ExtLink from '../components/ext-link'
 import Features from '../components/features'
 import GitHub from '../components/svgs/github'
 import sharedStyles from '../styles/shared.module.css'
-
+import Iframe from 'react-iframe'
+;<Iframe
+  url="https://veronica.substack.com/embed"
+  width="480px"
+  height="320px"
+  id="substack"
+/>
 export default () => (
   <>
     <Header titlePre="Home" />
